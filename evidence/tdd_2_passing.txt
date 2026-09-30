@@ -1,0 +1,7 @@
+===== GREEN: T3 after adding the capacity check to Event.register =====
+test_T3_BR3_event_never_exceeds_capacity_or_duplicates_participant (tests.test_event_registration.EventRegistrationTests.test_T3_BR3_event_never_exceeds_capacity_or_duplicates_participant) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK

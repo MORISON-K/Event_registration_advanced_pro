@@ -1,0 +1,2 @@
+EV1: RegisterParticipantResult(registration_id='REG-EV1-1', event_id='EV1', participant_id='P1', fee=10000, attendance_confirmed=True, message='Registered; attendance confirmed')
+EV2: RegisterParticipantResult(registration_id='REG-EV2-1', event_id='EV2', participant_id='P1', fee=10000, attendance_confirmed=False, message='Registered; attendance NOT confirmed: Schedule conflict: EV2 overlaps already confirmed EV1')

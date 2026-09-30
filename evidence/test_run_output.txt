@@ -1,0 +1,13 @@
+test_T1_BR1_time_slot_must_end_after_it_starts (tests.test_event_registration.EventRegistrationTests.test_T1_BR1_time_slot_must_end_after_it_starts) ... ok
+test_T2_BR2_event_accepts_registration_only_when_open (tests.test_event_registration.EventRegistrationTests.test_T2_BR2_event_accepts_registration_only_when_open) ... ok
+test_T3_BR3_event_never_exceeds_capacity_or_duplicates_participant (tests.test_event_registration.EventRegistrationTests.test_T3_BR3_event_never_exceeds_capacity_or_duplicates_participant) ... ok
+test_T4_BR4_fee_depends_on_event_and_participant (tests.test_event_registration.EventRegistrationTests.test_T4_BR4_fee_depends_on_event_and_participant) ... ok
+test_T5_BR5_registration_raises_event_and_handler_confirms_attendance (tests.test_event_registration.EventRegistrationTests.test_T5_BR5_registration_raises_event_and_handler_confirms_attendance) ... ok
+test_T6_BR6_aggregates_must_exist_before_registering (tests.test_event_registration.EventRegistrationTests.test_T6_BR6_aggregates_must_exist_before_registering) ... ok
+test_T7_main_use_case_success_event_handled_and_participant_updated (tests.test_event_registration.EventRegistrationTests.test_T7_main_use_case_success_event_handled_and_participant_updated) ... ok
+test_T8_participant_rejects_follow_up_when_schedule_clashes (tests.test_event_registration.EventRegistrationTests.test_T8_participant_rejects_follow_up_when_schedule_clashes) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK

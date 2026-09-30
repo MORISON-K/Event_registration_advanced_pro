@@ -1,0 +1,15 @@
+===== RED: T3 before the BR3 capacity check is implemented =====
+test_T3_BR3_event_never_exceeds_capacity_or_duplicates_participant (tests.test_event_registration.EventRegistrationTests.test_T3_BR3_event_never_exceeds_capacity_or_duplicates_participant) ... FAIL
+
+======================================================================
+FAIL: test_T3_BR3_event_never_exceeds_capacity_or_duplicates_participant (tests.test_event_registration.EventRegistrationTests.test_T3_BR3_event_never_exceeds_capacity_or_duplicates_participant)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/user-data/outputs/event_registration_project/tests/test_event_registration.py", line 79, in test_T3_BR3_event_never_exceeds_capacity_or_duplicates_participant
+    with self.assertRaises(EventFullError):               # rejection: one over capacity
+AssertionError: EventFullError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

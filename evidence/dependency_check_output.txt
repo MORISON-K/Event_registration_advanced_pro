@@ -1,0 +1,5 @@
+domain          depends on: nothing
+application     depends on: ['domain']
+infrastructure  depends on: ['application', 'domain']
+interface       depends on: ['application', 'domain', 'infrastructure']
+RESULT: OK - dependencies point inward only
